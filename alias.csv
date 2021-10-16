@@ -1,0 +1,29 @@
+sshc,cat ~/.ssh/config
+test1,echo "test1" 
+test2,echo "test2"
+..,cd ../
+...,cd ../../
+....,cd ../../../
+.....,cd ../../../../
+~,cd ~
+gcl,git clone
+gi,git init
+ga,git add
+grm,git rm
+gs,git status
+gb,git branch
+gcm,git commit -m
+gf,git fetch
+grb,git rebase
+gp,git pull
+py,python
+fc,ls|wc -l
+mt,mount -r -t iso9660
+rm,rm -i
+mv,mv -i
+cp,cp -i
+df,df -h
+nmd,nmcli device
+sysc,systemctl
+ipg,ip a|grep "inet "
+e,echo
