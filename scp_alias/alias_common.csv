@@ -1,6 +1,5 @@
 sshc,cat ~/.ssh/config
-test1,echo "test1" 
-test2,echo "test2"
+ssha,cat ~/.ssh/authorized_keys
 ..,cd ../
 ...,cd ../../
 ....,cd ../../../
@@ -17,13 +16,22 @@ gf,git fetch
 grb,git rebase
 gp,git pull
 py,python
+la,ls -a --color=auto
+ls,ls -F --color=auto
 fc,ls|wc -l
-mt,mount -r -t iso9660
-rm,rm -i
-mv,mv -i
-cp,cp -i
+mt,mount -r -t iso9660v
 df,df -h
+nm,nmcli
 nmd,nmcli device
-sysc,systemctl
+sc,systemctl
 ipg,ip a|grep "inet "
 e,echo
+cm,chmod
+cmx,chmod +x
+co,chown
+rhel,cat /etc/redhat-release
+cent,cat /etc/centos-release
+al,alias
+ex,export
+vlm,vi /var/log/messages
+brc,echo "Reload ~/.bashrc";. ~/.bashrc;alias
